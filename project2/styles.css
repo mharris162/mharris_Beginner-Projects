@@ -1,4 +1,5 @@
 * {
+    background-color: rgb(229, 229, 250);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,6 +15,10 @@ body {
     height: 100vh;
 }
 
+h1 {
+    color:  #6b3bb8;
+}
+
 #info{
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -22,7 +27,7 @@ grid-template-columns: 1fr 1fr;
 
 #info div { 
     padding: 3rem;
-    background: rgb(9, 60, 227);
+    background:  rgb(80, 109, 80);
     margin: 0.5rem;
     border-radius: 10px;
     color: #fff;
