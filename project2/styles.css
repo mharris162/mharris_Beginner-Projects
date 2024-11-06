@@ -1,10 +1,9 @@
 * {
-    background-color: rgb(229, 229, 250);
+    background-color: #e7e6e6;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -16,7 +15,7 @@ body {
 }
 
 h1 {
-    color:  #6b3bb8;
+    color:  #22465c;
 }
 
 #info{
@@ -27,7 +26,7 @@ grid-template-columns: 1fr 1fr;
 
 #info div { 
     padding: 3rem;
-    background:  rgb(80, 109, 80);
+    background:  #3D6E71;
     margin: 0.5rem;
     border-radius: 10px;
     color: #fff;

@@ -1,6 +1,6 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(229, 229, 250);
+    background-color: #e7e6e6;
     color: rgb(18, 100, 18);
 }
 
@@ -10,7 +10,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    animation: fadeIn; 
+    animation-duration: 2.5s; 
 }
+
+h1{
+    color:#22465c;
+}
+
 
 
 .menubttn {
@@ -21,7 +28,13 @@ body {
 }
 
 button {
-    background-color: rgb(18, 100, 18);
+    background-color:#3D6E71;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+button:hover {
+    animation: pulse; 
+    animation-duration: 800ms; 
 }
